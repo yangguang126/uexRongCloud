@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uexplugins>
+    <plugin name="uexRongCloud">
+        <method name="init"></method>
+        <method name="connect"></method>
+        <method name="sendMessage"></method>
+        <method name="getConversationList" sync="true"></method>
+        <method name="getConversation" sync = "true"></method>
+        <method name="removeConversation"></method>
+        <method name="clearConversations"></method>
+        <method name="setConversationToTop"></method>
+        <method name="getConversationNotificationStatus"></method>
+        <method name="setConversationNotificationStatus"></method>
+        <method name="getLatestMessages"></method>
+        <method name="getHistoryMessages"></method>
+        <method name="deleteMessages"></method>
+        <method name="clearMessages"></method>
+        <method name="getTotalUnreadCount" sync = "true"></method>
+        <method name="getUnreadCount" sync = "true"></method>
+        <method name="getUnreadCountByConversationTypes" sync = "true"></method>
+        <method name="setMessageReceivedStatus"></method>
+        <method name="clearMessagesUnreadStatus"></method>
+    </plugin>
+    
+</uexplugins>

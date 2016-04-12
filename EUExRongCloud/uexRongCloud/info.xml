@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uexplugins>
+    <plugin
+        uexName="uexRongCloud" version="3.0.0" build=“0”>
+        <info>0:新增融云插件</info>
+    </plugin>
+</uexplugins>

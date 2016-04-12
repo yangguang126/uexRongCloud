@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CB479481CA0E0B400F7AC1A /* EUExRongCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB479471CA0E0B400F7AC1A /* EUExRongCloud.m */; };
+		3CF3F82C1CA2384B00975491 /* uexRCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3F82B1CA2384B00975491 /* uexRCManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3CB479401CA0E0B400F7AC1A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3CB479421CA0E0B400F7AC1A /* libuexRongCloud.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexRongCloud.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB479451CA0E0B400F7AC1A /* EUExRongCloud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExRongCloud.h; sourceTree = "<group>"; };
+		3CB479471CA0E0B400F7AC1A /* EUExRongCloud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUExRongCloud.m; sourceTree = "<group>"; };
+		3CB4794F1CA0E0CC00F7AC1A /* EUExBase+Bundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EUExBase+Bundle.h"; sourceTree = "<group>"; };
+		3CB479501CA0E0CC00F7AC1A /* EUExBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
+		3CB479511CA0E0CC00F7AC1A /* EUExBaseDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
+		3CB479521CA0E0CC00F7AC1A /* EUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
+		3CB479531CA0E0CC00F7AC1A /* WidgetOneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WidgetOneDelegate.h; sourceTree = "<group>"; };
+		3CB479551CA0E0CC00F7AC1A /* JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		3CB479561CA0E0CC00F7AC1A /* JSONParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
+		3CB479571CA0E0CC00F7AC1A /* MD5Digest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MD5Digest.h; sourceTree = "<group>"; };
+		3CB479581CA0E0CC00F7AC1A /* NSObject+SBJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		3CB479591CA0E0CC00F7AC1A /* NSString+SBJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		3CB4795A1CA0E0CC00F7AC1A /* SBJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		3CB4795B1CA0E0CC00F7AC1A /* SBJsonBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		3CB4795C1CA0E0CC00F7AC1A /* SBJsonParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		3CB4795D1CA0E0CC00F7AC1A /* SBJsonWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		3CB4795F1CA0E0CC00F7AC1A /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
+		3CB479601CA0E0CC00F7AC1A /* EUExRongCloud-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EUExRongCloud-PrefixHeader.pch"; sourceTree = "<group>"; };
+		3CB479611CA0E0CC00F7AC1A /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		3CF3F82B1CA2384B00975491 /* uexRCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = uexRCManager.m; sourceTree = "<group>"; };
+		3CF3F82E1CA2394800975491 /* uexRCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uexRCManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB4793F1CA0E0B400F7AC1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CB479391CA0E0B400F7AC1A = {
+			isa = PBXGroup;
+			children = (
+				3CB479441CA0E0B400F7AC1A /* EUExRongCloud */,
+				3CB479431CA0E0B400F7AC1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CB479431CA0E0B400F7AC1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CB479421CA0E0B400F7AC1A /* libuexRongCloud.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CB479441CA0E0B400F7AC1A /* EUExRongCloud */ = {
+			isa = PBXGroup;
+			children = (
+				3CB4794E1CA0E0CC00F7AC1A /* engineHeader */,
+				3CB479541CA0E0CC00F7AC1A /* JSON */,
+				3CB4795E1CA0E0CC00F7AC1A /* sourceCode */,
+				3CB479451CA0E0B400F7AC1A /* EUExRongCloud.h */,
+				3CB479471CA0E0B400F7AC1A /* EUExRongCloud.m */,
+			);
+			path = EUExRongCloud;
+			sourceTree = "<group>";
+		};
+		3CB4794E1CA0E0CC00F7AC1A /* engineHeader */ = {
+			isa = PBXGroup;
+			children = (
+				3CB4794F1CA0E0CC00F7AC1A /* EUExBase+Bundle.h */,
+				3CB479501CA0E0CC00F7AC1A /* EUExBase.h */,
+				3CB479511CA0E0CC00F7AC1A /* EUExBaseDefine.h */,
+				3CB479521CA0E0CC00F7AC1A /* EUtility.h */,
+				3CB479531CA0E0CC00F7AC1A /* WidgetOneDelegate.h */,
+			);
+			path = engineHeader;
+			sourceTree = "<group>";
+		};
+		3CB479541CA0E0CC00F7AC1A /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				3CB479551CA0E0CC00F7AC1A /* JSON.h */,
+				3CB479561CA0E0CC00F7AC1A /* JSONParser.h */,
+				3CB479571CA0E0CC00F7AC1A /* MD5Digest.h */,
+				3CB479581CA0E0CC00F7AC1A /* NSObject+SBJSON.h */,
+				3CB479591CA0E0CC00F7AC1A /* NSString+SBJSON.h */,
+				3CB4795A1CA0E0CC00F7AC1A /* SBJSON.h */,
+				3CB4795B1CA0E0CC00F7AC1A /* SBJsonBase.h */,
+				3CB4795C1CA0E0CC00F7AC1A /* SBJsonParser.h */,
+				3CB4795D1CA0E0CC00F7AC1A /* SBJsonWriter.h */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		3CB4795E1CA0E0CC00F7AC1A /* sourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				3CB4795F1CA0E0CC00F7AC1A /* AFNetworking.framework */,
+				3CB479601CA0E0CC00F7AC1A /* EUExRongCloud-PrefixHeader.pch */,
+				3CB479611CA0E0CC00F7AC1A /* libopencore-amrnb.a */,
+				3CF3F82E1CA2394800975491 /* uexRCManager.h */,
+				3CF3F82B1CA2384B00975491 /* uexRCManager.m */,
+			);
+			path = sourceCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CB479411CA0E0B400F7AC1A /* EUExRongCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB4794B1CA0E0B400F7AC1A /* Build configuration list for PBXNativeTarget "EUExRongCloud" */;
+			buildPhases = (
+				3CB4793E1CA0E0B400F7AC1A /* Sources */,
+				3CB4793F1CA0E0B400F7AC1A /* Frameworks */,
+				3CB479401CA0E0B400F7AC1A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EUExRongCloud;
+			productName = EUExRongCloud;
+			productReference = 3CB479421CA0E0B400F7AC1A /* libuexRongCloud.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CB4793A1CA0E0B400F7AC1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AppCan;
+				TargetAttributes = {
+					3CB479411CA0E0B400F7AC1A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3CB4793D1CA0E0B400F7AC1A /* Build configuration list for PBXProject "EUExRongCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CB479391CA0E0B400F7AC1A;
+			productRefGroup = 3CB479431CA0E0B400F7AC1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CB479411CA0E0B400F7AC1A /* EUExRongCloud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CB4793E1CA0E0B400F7AC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB479481CA0E0B400F7AC1A /* EUExRongCloud.m in Sources */,
+				3CF3F82C1CA2384B00975491 /* uexRCManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3CB479491CA0E0B400F7AC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CB4794A1CA0E0B400F7AC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CB4794C1CA0E0B400F7AC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = $SRCROOT/uexRongCloud;
+				GCC_PREFIX_HEADER = "$SRCROOT/EUExRongCloud/sourceCode/EUExRongCloud-PrefixHeader.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExRongCloud",
+					"$(PROJECT_DIR)/EUExRongCloud/sourceCode",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexRongCloud;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3CB4794D1CA0E0B400F7AC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = $SRCROOT/uexRongCloud;
+				GCC_PREFIX_HEADER = "$SRCROOT/EUExRongCloud/sourceCode/EUExRongCloud-PrefixHeader.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExRongCloud",
+					"$(PROJECT_DIR)/EUExRongCloud/sourceCode",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexRongCloud;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CB4793D1CA0E0B400F7AC1A /* Build configuration list for PBXProject "EUExRongCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB479491CA0E0B400F7AC1A /* Debug */,
+				3CB4794A1CA0E0B400F7AC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB4794B1CA0E0B400F7AC1A /* Build configuration list for PBXNativeTarget "EUExRongCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB4794C1CA0E0B400F7AC1A /* Debug */,
+				3CB4794D1CA0E0B400F7AC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CB4793A1CA0E0B400F7AC1A /* Project object */;
+}
