@@ -347,6 +347,11 @@ typedef NS_ENUM(NSInteger, RCErrorCode) {
      历史消息云存储业务未开通
      */
     MSG_ROAMING_SERVICE_UNAVAILABLE = 33007,
+    
+    /*!
+     无效的公众号。(由会话类型和Id所标识的公众号会话是无效的)
+     */
+    INVALID_PUBLIC_NUMBER = 29201,
 };
 
 #pragma mark - 连接状态
@@ -537,10 +542,7 @@ typedef NS_ENUM(NSUInteger, RCConversationType) {
     ConversationType_CHATROOM = 4,
     
     /*!
-     客服1.0会话
-     
-     @discussion 客服2.0使用应用内公众服务会话（ConversationType_APPSERVICE）的方式实现。
-     即客服2.0会话是其中一个应用内公众服务会话，我们推荐您使用和迁移到客服2.0服务。
+     客服
      */
     ConversationType_CUSTOMERSERVICE = 5,
     
@@ -551,6 +553,9 @@ typedef NS_ENUM(NSUInteger, RCConversationType) {
     
     /*!
      应用内公众服务会话
+     
+     @discussion 客服2.0使用应用内公众服务会话（ConversationType_APPSERVICE）的方式实现。
+     即客服2.0会话是其中一个应用内公众服务会话，这种方式我们目前不推荐，请尽快升级到新客服，升级方法请参考官网的客服文档。
      */
     ConversationType_APPSERVICE = 7,
     
@@ -716,6 +721,18 @@ typedef NS_ENUM(NSUInteger, RCReceivedStatus) {
      已下载
      */
     ReceivedStatus_DOWNLOADED = 4,
+    
+    /*!
+     该消息已经被其他登录的多端收取过。（即改消息已经被其他端收取过后。当前端才登录，并重新拉取了这条消息。客户可以通过这个状态更新 UI，比如不再提示）。
+     */
+    ReceivedStatus_RETRIEVED = 8,
+    
+    /*!
+     该消息是被多端同时收取的。（即其他端正同时登录，一条消息被同时发往多端。客户可以通过这个状态值更新自己的某些 UI状态）。
+     */
+    ReceivedStatus_MULTIPLERECEIVE = 16,
+    
+    
 };
 
 #pragma mark RCMediaType - 消息内容中多媒体文件的类型
@@ -797,6 +814,13 @@ typedef NS_ENUM(NSUInteger, RCSearchType) {
      模糊匹配
      */
     RC_SEARCH_TYPE_FUZZY = 1,
+};
+
+typedef NS_ENUM(NSUInteger, RCCSModeType) {
+    RC_CS_NoService = 0,
+    RC_CS_RobotOnly = 1,
+    RC_CS_HumanOnly = 2,
+    RC_CS_RobotFirst= 3,
 };
 
 #endif

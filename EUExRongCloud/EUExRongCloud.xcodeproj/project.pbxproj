@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092D1A601CBF42290005B6F4 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 092D1A5F1CBF42290005B6F4 /* libopencore-amrnb.a */; };
+		093EA55E1CBE3F4300186364 /* RongIMLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093EA55D1CBE3F4300186364 /* RongIMLib.framework */; };
 		3CB479481CA0E0B400F7AC1A /* EUExRongCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB479471CA0E0B400F7AC1A /* EUExRongCloud.m */; };
 		3CF3F82C1CA2384B00975491 /* uexRCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3F82B1CA2384B00975491 /* uexRCManager.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		092D1A5F1CBF42290005B6F4 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "uexRongCloud/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		093EA55D1CBE3F4300186364 /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RongIMLib.framework; sourceTree = "<group>"; };
 		3CB479421CA0E0B400F7AC1A /* libuexRongCloud.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexRongCloud.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB479451CA0E0B400F7AC1A /* EUExRongCloud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExRongCloud.h; sourceTree = "<group>"; };
 		3CB479471CA0E0B400F7AC1A /* EUExRongCloud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUExRongCloud.m; sourceTree = "<group>"; };
@@ -41,7 +45,6 @@
 		3CB4795B1CA0E0CC00F7AC1A /* SBJsonBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
 		3CB4795C1CA0E0CC00F7AC1A /* SBJsonParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
 		3CB4795D1CA0E0CC00F7AC1A /* SBJsonWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
-		3CB4795F1CA0E0CC00F7AC1A /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
 		3CB479601CA0E0CC00F7AC1A /* EUExRongCloud-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EUExRongCloud-PrefixHeader.pch"; sourceTree = "<group>"; };
 		3CB479611CA0E0CC00F7AC1A /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
 		3CF3F82B1CA2384B00975491 /* uexRCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = uexRCManager.m; sourceTree = "<group>"; };
@@ -53,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				092D1A601CBF42290005B6F4 /* libopencore-amrnb.a in Frameworks */,
+				093EA55E1CBE3F4300186364 /* RongIMLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +67,7 @@
 		3CB479391CA0E0B400F7AC1A = {
 			isa = PBXGroup;
 			children = (
+				092D1A5F1CBF42290005B6F4 /* libopencore-amrnb.a */,
 				3CB479441CA0E0B400F7AC1A /* EUExRongCloud */,
 				3CB479431CA0E0B400F7AC1A /* Products */,
 			);
@@ -118,7 +124,7 @@
 		3CB4795E1CA0E0CC00F7AC1A /* sourceCode */ = {
 			isa = PBXGroup;
 			children = (
-				3CB4795F1CA0E0CC00F7AC1A /* AFNetworking.framework */,
+				093EA55D1CBE3F4300186364 /* RongIMLib.framework */,
 				3CB479601CA0E0CC00F7AC1A /* EUExRongCloud-PrefixHeader.pch */,
 				3CB479611CA0E0CC00F7AC1A /* libopencore-amrnb.a */,
 				3CF3F82E1CA2394800975491 /* uexRCManager.h */,
@@ -275,6 +281,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = $SRCROOT/uexRongCloud;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExRongCloud/sourceCode",
+				);
 				GCC_PREFIX_HEADER = "$SRCROOT/EUExRongCloud/sourceCode/EUExRongCloud-PrefixHeader.pch";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,6 +301,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = $SRCROOT/uexRongCloud;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExRongCloud/sourceCode",
+				);
 				GCC_PREFIX_HEADER = "$SRCROOT/EUExRongCloud/sourceCode/EUExRongCloud-PrefixHeader.pch";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
